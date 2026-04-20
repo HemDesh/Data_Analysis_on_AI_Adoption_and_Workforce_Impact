@@ -1,0 +1,3 @@
+Ctrl Shift P
+Select interpreter path
+select the project folder and select .venv\script\python.exe file
