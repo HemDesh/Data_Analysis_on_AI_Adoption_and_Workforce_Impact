@@ -1,4 +1,0 @@
-
-venv\scripts\activate
-pipreqs . --ignore .venv --encoding=utf8 --force
-venv\scripts\activate
