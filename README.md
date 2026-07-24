@@ -200,7 +200,7 @@ git clone https://github.com/HemDesh/Data_Analysis_on_AI_Adoption_and_Workforce_
 2. Install Dependencies
 
 bash
-pip install pandas matplotlib seaborn notebook
+pip install pandas matplotlib seaborn notebook pipreqs Requests
 
 3. Launch Jupyter Notebook
 notebooks/main.ipynb

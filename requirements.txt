@@ -1,4 +1,4 @@
-matplotlib==3.10.9
-pandas==3.0.3
+matplotlib==3.11.1
+pandas==3.0.5
 pipreqs==0.5.0
-Requests==2.34.0
+Requests==2.34.2
