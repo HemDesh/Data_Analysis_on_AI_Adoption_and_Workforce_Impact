@@ -11,6 +11,17 @@ The project includes:
 - charts and heatmaps
 - Business insights extraction
 
+
+The project answers the following questions:
+
+- Which industries are leading AI adoption?
+- Does AI maturity improve productivity and revenue?
+- Does automation increase job displacement?
+- Are companies reskilling employees as AI adoption grows?
+- Does GDP influence AI adoption or workforce impact?
+- How do country-level technology indicators relate to company performance?
+
+
 Dataset
 
 | Feature | Description |
@@ -62,10 +73,34 @@ Dataset
 Programming Language
 - Python 3
 
+Tools Used
+- Python
+- Pandas
+- NumPy
+- SQLite
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+
+
 Libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import sqlite3
+from pathlib import Path
+
+
+Project Workflow
+1. Data inspection
+2. Data cleaning
+3. Exploratory Data Analysis (EDA)
+4. SQL database creation
+5. SQL joins and aggregation
+6. Data visualization
+7. Business interpretation
+
 
 Key Analysis Performed
 1. Data Inspection
@@ -100,6 +135,13 @@ Key Analysis Performed
 - Reskilling investments
 - Industry impact comparisons
 
+6. Country's gdp per capita analysis
+- Total revenue of the companies
+- Job displacement
+- Patents pending
+
+
+
 Major Insights
 Global AI Adoption
 - France shows a high number of companies working on AI.
@@ -116,6 +158,13 @@ Workforce Trends
 - High automation may also lead to workforce displacement.
 - Companies investing in automation often increase reskilling initiatives.
 
+Country's gdp per capita effect
+- There is no direct relationship with the gdp per capita and total revenue of the companies using AI in that country.
+- Although China and US are dominating in filing AI patents there is direct impact of gdp per capita on the patents filings. Higher the gdp per capita, higher the AI patents filed. Lower the gdp per capita, the AI patents filed are lower.
+- There is no relationship between Country's per capita gdp and jobs displaced
+- Automation rate has a much stronger influence on job displacement than GDP level.
+
+
 Visualizations Included
 
 The notebook contains:
@@ -125,6 +174,19 @@ The notebook contains:
 - Bar charts
 - Correlation matrices
 - Comparative trend analysis
+
+
+
+Repository Contents
+
+```
+main.ipynb
+requirements.txt
+README.md
+data/
+    ai_company_adoption.csv
+    country_ai_index.csv
+    ai_company.db
 
 
 How to Run the Project
