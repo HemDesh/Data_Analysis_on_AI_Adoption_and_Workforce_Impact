@@ -175,6 +175,8 @@ The notebook contains:
 - Correlation matrices
 - Comparative trend analysis
 
+ER.pdf contains:
+- ER Diagram
 
 
 Repository Contents
@@ -187,6 +189,9 @@ data/
     ai_company_adoption.csv
     country_ai_index.csv
     ai_company.db
+other files/
+    ER.pdf
+
 
 
 How to Run the Project
