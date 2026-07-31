@@ -192,6 +192,9 @@ data/
 other files/
     ER.pdf
 
+Both the datasets are from source
+https://www.kaggle.com/datasets/mohankrishnathalla/global-ai-adoption-and-workforce-impact-dataset
+
 
 
 How to Run the Project
